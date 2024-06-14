@@ -113,10 +113,4 @@ class CheckersGame:
             game = CheckersGame(root)
             root.mainloop()
 
-    def check_winner(self):
-        if self.red_captured == 12:
-            messagebox.showinfo("Гра завершена", "Сині перемогли!")
-            self.end_game()
-        elif self.blue_captured == 12:
-            messagebox.showinfo("Гра завершена", "Червоні перемогли!")
-            self.end_game()
+    
